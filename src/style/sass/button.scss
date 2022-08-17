@@ -1,0 +1,33 @@
+.btn{
+   padding:  5px 10px;
+   border: 0;
+   background: transparent;
+   outline: none;
+   box-shadow: none;
+   cursor: pointer;
+   &:focus,
+   &:active{
+      outline: none;
+      box-shadow: none;
+   }
+}
+
+.arrow{
+   position: relative;
+   &-down{
+      &::before{
+         border-top:  5px solid #222;
+      }
+   }
+   &-up{
+      &::before{
+         border-bottom:  5px solid #222;
+      }
+   }
+   &::before{
+      content: "";
+      width: 0;
+      border-right:  5px solid transparent;
+      border-left:  5px solid transparent;
+   }
+}

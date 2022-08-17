@@ -1,0 +1,132 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #222222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 50px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.align-top {
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.align-bottom {
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.justify-between {
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+}
+
+.justify-around {
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.arrow {
+  position: relative;
+}
+.arrow-down::before {
+  border-top: 5px solid #222;
+}
+.arrow-up::before {
+  border-bottom: 5px solid #222;
+}
+.arrow::before {
+  content: "";
+  width: 0;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.contact {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ededed;
+}
+.contact-list {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+.contact-list li {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ededed;
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */

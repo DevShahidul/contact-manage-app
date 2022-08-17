@@ -1,0 +1,17 @@
+@mixin d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin align($align) {
+   -webkit-box-align: $align;
+   -ms-flex-align: $align;
+   align-items: $align
+}
+
+@mixin justify($pos) {
+   -webkit-box-pack: $pos;
+   -ms-flex-pack: $pos;
+   justify-content: $pos
+}
