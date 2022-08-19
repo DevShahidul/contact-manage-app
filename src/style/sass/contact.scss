@@ -14,3 +14,30 @@
       }
    }
 }
+
+.form_wrap{
+   width: 100%;
+   border:  1px solid #ededed;
+   .title,
+   .body{
+      width: 100%;
+      padding:  20px 20px;
+   }
+   .title{
+      background-color:  #f2f2f2;
+      color:  #666;
+      font-weight: bold;
+      font-size:  18px;
+      text-transform: capitalize;
+   }
+   .body{
+      padding-top: 10px;
+   }
+
+   .add_new_btn{
+      margin-top: 20px;
+      padding:  10px 25px;
+      background-color: aqua;
+      color: #666;
+   }
+}

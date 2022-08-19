@@ -25,6 +25,9 @@ body {
 
 .App {
   padding: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .d-flex {
@@ -127,6 +130,59 @@ body {
   padding-top: 10px;
   border-top: 1px solid #ededed;
   display: block;
+}
+
+.form_wrap {
+  width: 100%;
+  border: 1px solid #ededed;
+}
+.form_wrap .title,
+.form_wrap .body {
+  width: 100%;
+  padding: 20px 20px;
+}
+.form_wrap .title {
+  background-color: #f2f2f2;
+  color: #666;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.form_wrap .body {
+  padding-top: 10px;
+}
+.form_wrap .add_new_btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: aqua;
+  color: #666;
+}
+
+.input_item {
+  width: 100%;
+  margin-top: 15px;
+}
+.input_item label {
+  font-size: 14px;
+  display: block;
+  color: #666;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.input_item .input_field {
+  width: 100%;
+  border: 1px solid #ededed;
+  color: #000;
+  outline: none;
+  box-shadow: none;
+  padding: 10px 10px;
+}
+.input_item .input_field::placeholder {
+  color: #666;
+}
+.input_item .input_field:focus, .input_item .input_field:active {
+  outline: none;
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=main.css.map */

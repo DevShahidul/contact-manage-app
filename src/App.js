@@ -1,10 +1,13 @@
 import { Contacts } from './components';
+import Provider from './context';
 import './style/main.css';
 function App() {
   return (
-    <div className="App">
-      <Contacts />
-    </div>
+    <Provider>
+      <div className="App">
+        <Contacts />
+      </div>
+    </Provider>
   );
 }
 export default App;
