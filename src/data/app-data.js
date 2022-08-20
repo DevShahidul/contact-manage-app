@@ -7,38 +7,20 @@ export const contactsData = [
    },
    {
       id: 2,
-      name: "Shahidul Islam",
-      email: "ishahin56@gmail.com",
+      name: "Ferdous",
+      email: "ferdous@gmail.com",
       phone: "+8801620290055"
    },
    {
       id: 3,
-      name: "Shahidul Islam",
-      email: "ishahin56@gmail.com",
+      name: "Abdul Kaiyoum",
+      email: "abdulkaiyoum@gmail.com",
       phone: "+8801620290055"
    },
    {
       id: 4,
-      name: "Shahidul Islam",
-      email: "ishahin56@gmail.com",
-      phone: "+8801620290055"
-   },
-   {
-      id: 5,
-      name: "Shahidul Islam",
-      email: "ishahin56@gmail.com",
-      phone: "+8801620290055"
-   },
-   {
-      id: 6,
-      name: "Shahidul Islam",
-      email: "ishahin56@gmail.com",
-      phone: "+8801620290055"
-   },
-   {
-      id: 7,
-      name: "Shahidul Islam",
-      email: "ishahin56@gmail.com",
+      name: "Sofique",
+      email: "sofique@gmail.com",
       phone: "+8801620290055"
    }
 ]

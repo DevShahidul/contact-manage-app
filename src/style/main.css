@@ -154,8 +154,39 @@ body {
 .form_wrap .add_new_btn {
   margin-top: 20px;
   padding: 10px 25px;
-  background-color: aqua;
+  background-color: #f2f2f2;
   color: #666;
+}
+
+.error {
+  color: red;
+}
+
+.header_section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.header_section .brand {
+  font-size: 24px;
+  color: green;
+  font-style: italic;
+}
+.header_section .header_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header_section .header_nav ul li {
+  margin: 0 10px;
+}
+.header_section .header_nav ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header_section .header_nav ul li a:hover {
+  color: #222;
 }
 
 .input_item {
